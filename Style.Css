@@ -1,0 +1,262 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header Style */
+.jon-header .navbar-brand {
+	font-size: 25px;
+	font-weight: 500;
+}
+.jon-header span {
+	display: inline-block;
+	background: #6278df;
+	color: #fff;
+	height: 43px;
+	width: 40px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 28px;
+	position: relative;
+	top: 3px;
+}
+.jon-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* Slider Section */
+.slider-section{
+    background: url(https://i.ibb.co/r0JphkC/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.slider-caption h4 {
+    margin-bottom: 35px;
+}
+.slider-caption h2 {
+    margin-bottom: 50px;
+    font-size: 46px;
+}
+
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.slider-caption .form-control {
+    padding: 18px 20px;
+}
+/* number section */
+.Number-section{}
+.Number-item{}
+.Number-item h2{
+    font-size: 44px;
+    font-weight: 500;
+}
+.Number-item p{
+
+}
+/* About Section */
+.About-section{
+    background: #f7f9ff;
+}
+.About-caption{
+    
+}
+.About-caption h1{
+    font-size: 51px;
+    margin-top: 100px;
+}
+.About-caption p{
+    margin-top: 75px;
+    font-size: 26px;
+    line-height: 2em;
+}
+/* Feature caption */
+.Feature-caption{}
+/* feature Section */
+.Feature-section{}
+.feature-item{
+    height: 300px;
+
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width:inherit;
+    position: relative;
+    left: -85PX;
+
+    
+}
+.right-text-sec{
+    width: 60%;
+}
+.right-text-sec h2{}
+.right-text-sec p{
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+/* portfolio Caption */
+.portfolio-caption{}
+
+.portfolio-img{}
+.portfolio-img a{
+    display: block;
+    position: relative;
+}
+.portfolio-img a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 174, 238, 0.4);
+    opacity: 0;
+    visibility: hidden;
+
+    transition: .5s;
+}
+.portfolio-img:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+.mein-bg{
+    background-color: #f7f9ff;
+}
+/* pricing-table-section */
+
+.pricing-text{}
+.pricing-text h2{
+    font-size: 55px;
+    font-weight: 500;
+}
+.pricing-text p{
+    font-size: 24px;
+}
+.pricing-table-section{}
+.pricing-table-item{
+    background-color: #fff;
+    padding-bottom:30px ;
+    padding-top: 30px;
+}
+.pricing-table-item h1{
+    padding-top: 40px;
+    margin-left: 60px;
+}
+.pricing-table-item h5{
+    margin-left: 60px;
+}
+.pricing-table-item ul{}
+.pricing-table-item ul li{
+    list-style: none;
+    font-size: 26px;
+    padding-bottom: 25px;
+    margin-left: 30px;
+}
+.pricing-table-item ul li span{
+    font-size: 24px;
+    color: #6278df;
+    margin-right: 25px;
+}
+
+/* Testimonial section */
+.Testimonia-section{}
+.testimonial-item{}
+.testimonial-item h5{
+    font-size: 27px;
+}
+.testimonial-item h1{}
+.testimonial-item p{
+    font-size: 20px;
+}
+.testimonial-item span{
+    font-size: 60px;
+    color: rgba(0, 0, 0,.2);
+}
+
+.user-bio{
+    width: 210px;
+    margin: auto;
+}
+.user-bio img{
+    width: 90px;
+    position: relative;
+    top: 0;
+    left: 30px;
+}
+.user-details{
+    margin-left: 14px;
+    position: relative;
+    top: 58px;
+    left: 30px;
+
+}
+.user-details h3{
+    font-size: 16px;
+}
+.user-details p{}
+
+
+/*  */
+
+.About-text{}
+
+.About-p{
+    font-size: 43px;
+    line-height: 1em;
+}
+
+
+/*  */
+
+.About-section {}
+.About-item{
+    
+    width: 290px;
+    margin-top: 80px;
+}
+.About-item .card{
+    padding: 26px;
+}
+.About-item .card img{
+    width: 130px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: -70px;
+}
+.About-item .cardbody{}
+.About-item .card-title h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.About-item .card-subtitle h6{
+    font-weight: 500;
+}
+
+
+
+
+
